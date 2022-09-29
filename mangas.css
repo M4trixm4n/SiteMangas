@@ -1,0 +1,89 @@
+* {
+    font-family: cursive;
+}
+
+body {
+    background-color: white;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+#tab {
+    margin-top: 4rem;
+    width: 90%;
+    margin-left: 5%;
+    border-collapse: collapse;
+}
+
+td {
+    text-align: center;
+    height: 2rem;
+    border-top:  black 1px solid;
+    border-bottom: black 1px solid;
+}
+
+th {
+    height: 2rem;
+}
+
+td > button {
+    border-radius: 50%;
+    width: 1.75rem;
+    height: 1.75rem;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    padding: auto;
+}
+
+#but {
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+    border: none;
+    border-radius: 0;
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: rgb(102, 178, 223);
+}
+
+#but:hover {
+    background-color: rgb(136, 188, 218);
+}
+
+#txt {
+    font-size: 20px;
+}
+
+#search {
+    width: 75%;
+    left: 7.5%;
+    height: 2rem;
+    position: fixed;
+    top: 1rem;
+}
+
+#add {
+    width: 9%;
+    right: 7.5%;
+    height: 2.375rem;
+    position: fixed;
+    top: 1rem;
+    border: 1px darkgray solid;
+    border-radius: 3px;
+    background-color: rgb(136, 188, 218);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+}
+
+.small {
+    font-size: 12px;
+    color: grey;
+}
+
+#small {
+    max-width: 250px;
+    word-wrap: break-word;
+}
